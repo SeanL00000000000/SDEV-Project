@@ -1,0 +1,15 @@
+<! \DjangoLabs\templates\news.html>
+<h2>Latest News</h2>
+<table>
+    {% for item in newsitems %}
+      <tr>
+          <td><strong>{{ item.date }}</strong></td>
+          <td>{{ item.detail }}</td>
+      </tr>
+      {% empty %}
+      <tr>
+         <td><strong>{% now "m-d-y" %}</strong></td>
+         <td>No News</td>
+     </tr>
+    {% endfor %}
+</table>
