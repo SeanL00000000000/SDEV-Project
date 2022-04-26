@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(56, 55, 55);
+}
+
+#main {
+	width: 80%;
+	margin: auto;
+	border: 1px white solid;
+	background-color: rgb(32, 29, 29);
+}
+
+.title{
+    text-align: center;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+}
+
+#navbar{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(32, 29, 29);
+}
+
+.navb{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 12px 14px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: rgb(56, 55, 55);
+}
+
+#insta{
+	float: right;
+}
+
+#content{
+	width: 100%;
+	margin: auto;
+	background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+.title1{
+	color: rgb(32, 29, 29);
+	font-size: 35px;
+	font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-top: 8px;
+}
+
+#sexyface{
+    float:right;
+    width: 250px;
+    height: 330px;
+}
+
+#startimages img{
+	width: 330px;
+	height: 330px;
+	display: inline-block;
+	margin: 5.5%;
+}
+
+.video {
+	display: block;
+	width: 35%;
+	margin: 0 auto;
+}
+
+ul.list {
+	list-style: none;
+}
+
+li.green {
+	background: url('bullet.png') left center no-repeat;
+	padding-left: 28px;
+}
+
+li#insta {
+	background: url('instagram.png') left center no-repeat;
+	padding-left: 28px;
+}
+
+.centerimg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 330px;
+	height: 330px;
+}
+
+#magnus{
+	  width: 330px;
+	  height: 495px;
+	  float: left;
+}
+
+#hikaruimg2 img{
+	width: 450px;
+	height: 450px;
+	float: right;
+}
+
+#melaugh{
+	height: 380px;
+	width: 450px;
+	float: left;
+}
+
+.tg  {
+	border-collapse:collapse;
+	border-spacing:0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tg td {
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	font-family:'Poppins', sans-serif;
+	font-size:14px;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+
+.tg th {
+	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	font-family:'Poppins', sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	overflow:hidden;
+	padding:10px 5px;
+	word-break:normal;
+}
+
+.tg .playerrow {
+	border-color:inherit;
+	text-align:left;
+	vertical-align:top;
+}
+
+.tg .tablerow {
+	text-align:left;
+	vertical-align:top;
+}
+
+#jsquiz {
+	text-align: center;
+}
+
+#rotator {
+	width: 60%;
+	margin: auto;
+}
+
+#rotator img {
+	border-radius: 0%;
+}
+
+#rotatorfd {
+	width: 60%;
+	margin: auto;
+}
+
+.rightimg {
+	float: right;
+	width: 330px;
+	height: 330px;
+}
