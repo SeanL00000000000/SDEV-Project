@@ -22,6 +22,6 @@ def index (request,year=date.today().year,month=date.today().month):
      }
      ]
     page_title="Second Django Lab"
-    return render(request, 'calendar_base.html', {'title': title, 'cal': cal,
+    return render(request, 'base.html', {'title': title, 'cal': cal,
 'newsitems': newsitems, 'page_title': page_title})
 
