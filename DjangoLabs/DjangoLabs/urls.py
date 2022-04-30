@@ -1,5 +1,4 @@
 """DjangoLabs URL Configuration
-
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
 Examples:
@@ -21,7 +20,6 @@ from django.urls import path,include
 urlpatterns = [
     path('lab1app/', include('lab1app.urls')),
     path('lab2app/', include('lab2app.urls')),
+    path('sdev_proj/', include('sdev_proj.urls')),
     path('admin/', admin.site.urls),
 ]
-
-
