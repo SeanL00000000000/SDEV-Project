@@ -4,7 +4,8 @@ body {
 
 #main {
 	width: 80%;
-	margin: auto;
+	margin-left: auto;
+    margin-right: auto;
 	border: 2px white solid;
 	background-color: rgb(32, 29, 29);
 }
@@ -93,14 +94,19 @@ li.green {
 	height: 330px;
 }
  <!-- Table CSS -->
+ .darkTable{
+    margin-left: auto;
+    margin-right: auto;
+ }
  table.darkTable {
   font-family: "Arial Black", Gadget, sans-serif;
   border: 2px solid #000000;
   background-color: #4A4A4A;
-  width: 100%;
+  width: 99%;
   height: 200px;
   text-align: center;
   border-collapse: collapse;
+
 }
 table.darkTable td, table.darkTable th {
   border: 1px solid #4A4A4A;
