@@ -1,0 +1,44 @@
+
+.container
+{
+    color:white;
+    margin: auto;
+    width:50%;
+    padding:8px;
+
+}
+img
+{
+   border:3px solid white;
+   float:top;
+   width:600px;
+   height:300px;
+   padding:0 ;
+}
+
+.text{
+    text-align:auto;
+    font-family:verdana;
+    color:white;
+
+}
+
+#map
+{
+   float:right;
+   width:400px;
+   height:400px;
+   padding:0 5px 0 0;
+
+}
+
+#bg
+{
+     /* Full height */
+  height: 100% 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

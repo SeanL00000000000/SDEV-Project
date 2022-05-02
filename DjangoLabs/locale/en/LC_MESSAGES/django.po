@@ -18,14 +18,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: .\DjangoLabs\settings.py:122
-msgid "English"
+#: .\sdev_proj\templates\index.html:25
+msgid "IRISH WRECKS"
 msgstr ""
 
-#: .\DjangoLabs\settings.py:123
-msgid "German"
-msgstr ""
-
-#: .\DjangoLabs\settings.py:124
-msgid "Vietnamese"
+#: .\sdev_proj\views.py:21
+msgid "hello"
 msgstr ""

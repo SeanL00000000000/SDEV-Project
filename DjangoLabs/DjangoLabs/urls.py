@@ -16,10 +16,11 @@ Including another URLconf
 
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls.i18n import i18n_patterns
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+from django.utils.translation import gettext_lazy as _
 
 urlpatterns =[
-    path('lab1app/', include('lab1app.urls')),
-    path('lab2app/', include('lab2app.urls')),
     path('sdev_proj/', include('sdev_proj.urls')),
     path('rosetta/', include('rosetta.urls')),
     path('admin/', admin.site.urls),
@@ -27,4 +28,15 @@ urlpatterns =[
 
 
 
+urlpatterns += i18n_patterns(
 
+   path('',include('sdev_proj.urls'))
+
+)
+urlpatterns +=staticfiles_urlpatterns()
+
+from django.conf import settings
+from django.conf.urls.static import static
+if settings.DEBUG:
+        urlpatterns += static(settings.MEDIA_URL,
+                              document_root=settings.MEDIA_ROOT)
