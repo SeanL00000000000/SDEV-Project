@@ -1,5 +1,9 @@
+
 from django.urls import path
-from sdev_proj.views import *
+from .views import *
+
 urlpatterns = [
     path('',index, name='index'),
+    path ('wrecks/',wrecks, name='wrecks'),
+
 ]
