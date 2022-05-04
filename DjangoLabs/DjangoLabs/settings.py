@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'lab1app',
     'lab2app',
     'sdev_proj',
-    'rosetta',
 ]
 
 MIDDLEWARE = [
