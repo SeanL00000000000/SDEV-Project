@@ -1,5 +1,4 @@
 """DjangoLabs URL Configuration
-
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.0/topics/http/urls/
 Examples:
@@ -22,9 +21,8 @@ from django.utils.translation import gettext_lazy as _
 
 urlpatterns =[
     path('sdev_proj/', include('sdev_proj.urls')),
-    path('rosetta/', include('rosetta.urls')),
     path('admin/', admin.site.urls),
-   ]
+]
 
 
 
@@ -39,4 +37,5 @@ from django.conf import settings
 from django.conf.urls.static import static
 if settings.DEBUG:
         urlpatterns += static(settings.MEDIA_URL,
-                              document_root=settings.MEDIA_ROOT)
+        document_root=settings.MEDIA_ROOT)
+

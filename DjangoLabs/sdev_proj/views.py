@@ -1,12 +1,15 @@
-from urllib import request
 
-from django.shortcuts import render
 from django.utils.translation import get_language,activate
 from django.utils import translation
 from django.utils.translation import gettext
-
+# Create your views here.
+from django.shortcuts import render
 
 def index(request):
+
+
+    return render(request, 'index.html',)
+
     trans=translate(language='de')
     return render(request, 'index.html' ,{'trans':trans},)
 
@@ -23,4 +26,5 @@ def translate(language):
         activate(cur_language)
         return text
 
+    return render(request, 'wrecks.html',)
 
