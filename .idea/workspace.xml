@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="fc12b33a-5199-46da-8e0c-17ffd0c2a0c4" name="Changes" comment="" />
+=======
+    <list default="true" id="fc12b33a-5199-46da-8e0c-17ffd0c2a0c4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoLabs/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLabs/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoLabs/sdev_proj/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLabs/sdev_proj/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DjangoLabs/sdev_proj/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/DjangoLabs/sdev_proj/views.py" afterDir="false" />
+    </list>
+>>>>>>> 9220bef953c0b6f3afc8abaed43c3d96a5ac3e6f
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -3,6 +3,7 @@
 
 
 <html lang="en">
+<<<<<<< HEAD
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -81,6 +82,31 @@
         <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">IRISH WRECKS</a>
         </footer>
+=======
+<head>
+    <meta charset="UTF-8">
+    <title>Dived Wrecks</title>
+    {% load static %}
+    <link href="{% static 'css/test.css' %}" rel="stylesheet">
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+ <form action="/save" method="post">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</body>
+>>>>>>> 9220bef953c0b6f3afc8abaed43c3d96a5ac3e6f
 </html>
 
 
