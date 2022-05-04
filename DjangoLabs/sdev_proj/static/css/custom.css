@@ -36,7 +36,8 @@ img
    float:right;
    width:400px;
    height:400px;
-   padding:0 5px 0 0;
+   padding: 10px;
+      margin: auto;
 
 }
 
@@ -107,4 +108,10 @@ table.darkTable tfoot {
 }
 table.darkTable tfoot td {
   font-size: 12px;
+}
+
+#footertext{
+    text-align:center;
+    color:white;
+
 }
