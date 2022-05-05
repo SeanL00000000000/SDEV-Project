@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:41+0100\n"
-"PO-Revision-Date: 2022-05-02 21:53+0100\n"
+"POT-Creation-Date: 2022-05-05 00:21+0100\n"
+"PO-Revision-Date: 2022-05-05 00:21+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de\n"
@@ -18,9 +18,92 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.0.1\n"
 
-#: .\sdev_proj\templates\index.html:25 .\sdev_proj\templates\wrecks.html:25
+#: .\sdev_proj\templates\index.html:25 .\sdev_proj\templates\index.html:88
+#: .\sdev_proj\templates\wrecks.html:25
 msgid "IRISH WRECKS"
 msgstr "IRISCHE WRACKS ONLINE"
+
+#: .\sdev_proj\templates\index.html:29
+msgid "HomePage"
+msgstr "HomePage"
+
+#: .\sdev_proj\templates\index.html:30
+msgid "Wrecks"
+msgstr "Wracks"
+
+#: .\sdev_proj\templates\index.html:54
+msgid "WELCOME TO IRISH WRECKS ONLINE"
+msgstr "IRISCHE WRACKS ONLINE"
+
+#: .\sdev_proj\templates\index.html:58
+msgid ""
+"Welcome to Irish Wrecks Online, This is a website to showcase the the "
+"possibilities of exploring irish wrecks around our coastline, We have many "
+"wrecks around in our seas just waiting for intrepid explorers to investigate "
+"and disover. If this is your first time discovering irish wrecks then "
+"welcome we hope it ignites a passion like it has for us. If you take a look "
+"to your right we have included a interactive map of most of the available to "
+"explore wrecks around our coastline. This can be useful to locate and plan "
+"your next diving adventure."
+msgstr ""
+"Willkommen bei Irish Wrecks Online, Dies ist eine Website, um die "
+"Möglichkeiten der Erkundung irischer Wracks entlang unserer Küste zu "
+"präsentieren, Wir haben viele Wracks in unseren Meeren, die nur darauf "
+"warten, dass unerschrockene Entdecker untersuchen und entsorgen. Wenn Sie "
+"zum ersten Mal irische Wracks entdecken, dann hoffen wir, dass es eine "
+"Leidenschaft entfacht, wie sie für uns ist. Wenn Sie einen Blick nach rechts "
+"werfen, haben wir eine interaktive Karte der meisten verfügbaren Wracks rund "
+"um unsere Küste hinzugefügt. Dies kann nützlich sein, um Ihr nächstes "
+"Tauchabenteuer zu finden und zu planen."
+
+#: .\sdev_proj\templates\index.html:62
+msgid ""
+"Diving is not an exclusive past time, You can be from any background and "
+"still have it in you to explore the seas. Many  divers are quite "
+"individualistic and prefer the solitary of being alone with your thoughts in "
+"the waters. This would usually be reccomended for experienced divers but "
+"there is a tranquility only found in diving alone."
+msgstr ""
+"Tauchen ist keine exklusive Vergangenheit, Sie können aus jedem Hintergrund "
+"kommen und haben es immer noch in sich, die Meere zu erkunden. Viele Taucher "
+"sind ziemlich individualistisch und bevorzugen die Einsamkeit, mit Ihren "
+"Gedanken allein in den Gewässern zu sein. Dies würde normalerweise für "
+"erfahrene Taucher empfohlen werden, aber es gibt eine Ruhe, die nur beim "
+"Tauchen allein zu finden ist."
+
+#: .\sdev_proj\templates\index.html:66
+msgid ""
+"Diving Can also be done in a group with friends and family and arguably for "
+"some is more enjoyable. You have the added safety of being surrounded by "
+"other divers. You also have the unique experience of sharing memories of "
+"sights you will never forget with people important to you. Diving can be a "
+"great bonding experience for you and your friends. The stories to come out "
+"of diving could be shared amongst yourselves for years to come."
+msgstr ""
+"Tauchen Kann auch in einer Gruppe mit Freunden und Familie gemacht werden "
+"und ist wohl für einige angenehmer. Sie haben die zusätzliche Sicherheit, "
+"von anderen Tauchern umgeben zu sein. Sie haben auch die einzigartige "
+"Erfahrung, Erinnerungen an Sehenswürdigkeiten, die Sie nie vergessen werden, "
+"mit Menschen zu teilen, die Ihnen wichtig sind. Tauchen kann eine großartige "
+"Bindungserfahrung für Sie und Ihre Freunde sein. Die Geschichten, die aus "
+"dem Tauchen hervorgehen, könnten in den kommenden Jahren untereinander "
+"geteilt werden."
+
+#: .\sdev_proj\templates\index.html:70
+msgid ""
+"We have been striving to get more female divers in the scene as diving "
+"especially in Ireland we do not want it to be a gendered experience. We want "
+"to have an inclusive diving scene around Ireland and its wrecks. The more "
+"people the merrier we believe"
+msgstr ""
+"Wir haben uns bemüht, mehr weibliche Taucher in die Szene zu bekommen, da "
+"wir vor allem in Irland nicht wollen, dass es eine geschlechtsspezifische "
+"Erfahrung ist. Wir wollen eine inklusive Tauchszene rund um Irland und seine "
+"Wracks haben. Je mehr Menschen, desto fröhlicher glauben wir."
+
+#: .\sdev_proj\templates\index.html:90
+msgid "WEBSITE BY SEAN LAWLESS AND GABRIEL PLAZA"
+msgstr "WEBSITE VON SEAN LAWLESS UND GABRIEL PLAZA"
 
 #: .\sdev_proj\views.py:24
 msgid "hello"

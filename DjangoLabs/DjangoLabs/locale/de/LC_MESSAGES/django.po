@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:41+0100\n"
+"POT-Creation-Date: 2022-05-05 00:21+0100\n"
 "PO-Revision-Date: 2022-05-02 14:33+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -18,14 +18,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 3.0.1\n"
 
-#: .\DjangoLabs\settings.py:118
+#: .\DjangoLabs\settings.py:116
 msgid "English"
 msgstr "Englisch"
 
-#: .\DjangoLabs\settings.py:119
+#: .\DjangoLabs\settings.py:117
 msgid "German"
 msgstr "Deutsch"
 
-#: .\DjangoLabs\settings.py:120
+#: .\DjangoLabs\settings.py:118
 msgid "Vietnamese"
 msgstr "Vietnamesisch"

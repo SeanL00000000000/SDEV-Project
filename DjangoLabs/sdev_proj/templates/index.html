@@ -26,8 +26,8 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" aria-current="page" href="{% url 'index' %}">HomePage</a></li>
-                          <li class="nav-item"><a class="nav-link" aria-current="page" href="{% url 'wrecks' %}">Wrecks</a></li>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="{% url 'index' %}">{%trans "HomePage" %}</a></li>
+                          <li class="nav-item"><a class="nav-link" aria-current="page" href="{% url 'wrecks' %}">{%trans "Wrecks" %}</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
@@ -51,32 +51,25 @@
         <!-- Page content-->
         <div class="container">
             <div class="text-center mt-5">
-                <h1 class="Main_text">WELCOME TO IRISH WRECKS ONLINE</h1>
-                <p class="lead">A DIVERS GUIDE TO THE WRECKS AROUND IRELAND</p>
+                <h1 class="Main_text">{% trans "WELCOME TO IRISH WRECKS ONLINE" %}</h1>
+                <p class="lead">{%  trans "A DIVERS GUIDE TO THE WRECKS AROUND IRELAND" %}</p>
                 <p class="text">
                      <iframe id="map" src="https://www.google.com/maps/d/embed?mid=10PSzsMZMh7PfR6IZKUcibHtGnGk&hl=en&ehbc=2E312F" width="640" height="480"></iframe>
-
-                   Welcome to Irish Wrecks Online, This is a website to showcase the the possibilities of exploring irish wrecks around our coastline,
-                    We have many wrecks around in our seas just waiting for intrepid explorers to investigate and disover. If this is your first time discovering irish wrecks then welcome we hope it ignites a passion like it has for us.
-                    If you take a look to your right we have included a interactive map of most of the available to explore wrecks around our coastline. This can be useful to locate and plan your next diving adventure.
-
+                {% trans "Welcome to Irish Wrecks Online, This is a website to showcase the the possibilities of exploring irish wrecks around our coastline, We have many wrecks around in our seas just waiting for intrepid explorers to investigate and disover. If this is your first time discovering irish wrecks then welcome we hope it ignites a passion like it has for us. If you take a look to your right we have included a interactive map of most of the available to explore wrecks around our coastline. This can be useful to locate and plan your next diving adventure." %}
                 </p>
                 <p class="text">
                     <div class="wreck1" ><img src="{% static 'bg_wreck.jpg' %}" alt="wreck"></div>
-              Diving is not an exclusive past time, You can be from any background and still have it in you to explore the seas.
-                Many  divers are quite individualistic and prefer the solitary of being alone with your thoughts in the waters.
-                This would usually be reccomended for experienced divers but there is a tranquility only found in diving alone.
-
+              {% trans "Diving is not an exclusive past time, You can be from any background and still have it in you to explore the seas. Many  divers are quite individualistic and prefer the solitary of being alone with your thoughts in the waters. This would usually be reccomended for experienced divers but there is a tranquility only found in diving alone." %}
                 </p>
                 <p>
                     <div class="diver" ><img src="{% static 'group.jpg' %}" alt="wreck"></div>
-               Diving Can also be done in a group with friends and family and arguably for some is more enjoyable. You have the added safety of being surrounded by other divers.
-                You also have the unique experience of sharing memories of sights you will never forget with people important to you. Diving can be a great bonding experience for
-                you and your friends. The stories to come out of diving could be shared amongst yourselves for years to come.
+               {% trans "Diving Can also be done in a group with friends and family and arguably for some is more enjoyable. You have the added safety of being surrounded by other divers. You also have the unique experience of sharing memories of sights you will never forget with people important to you. Diving can be a great bonding experience for you and your friends. The stories to come out of diving could be shared amongst yourselves for years to come." %}
                </p>
                    <p>
                     <div class="diver" ><img src="{% static 'female.jpg' %}" alt="wreck"></div>
-                    We have been striving to get more female divers in the scene as diving especially in Ireland we do not want it to be a gendered experience. We want to have an inclusive diving scene around Ireland and its wrecks. The more people the merrier we believe
+                  {% trans  "We have been striving to get more female divers in the scene as diving especially in Ireland we do not want it to be a gendered experience. We want to have an inclusive diving scene around Ireland and its wrecks. The more people the merrier we believe" %}
+
+
                </p>
 
 
@@ -92,9 +85,9 @@
     </body>
 
         <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">IRISH WRECKS</a>
+        <a class="navbar-brand" href="#">{% trans "IRISH WRECKS" %}</a>
 
-            <div id="footertext">WEBSITE BY SEAN LAWLESS AND GABRIEL PLAZA </div>
+            <div id="footertext">{% trans "WEBSITE BY SEAN LAWLESS AND GABRIEL PLAZA" %} </div>
         </footer>
 
 </html>

@@ -51,45 +51,42 @@
         <!-- Page content-->
         <div class="container">
             <div class="text-center mt-5">
-                <h1 class="Main_text">WELCOME TO IRISH WRECKS ONLINE</h1>
-                <p class="lead">A LIST OF WRECKS</p>
+                <h1 class="Main_text">{% trans "WELCOME TO IRISH WRECKS ONLINE" %}</h1>
+                <p class="lead">{% trans "A LIST OF WRECKS" %}</p>
                 <p class="text">
 
-                   Welcome to our List of Wrecks page here at WWW.IRISHWRECKSONLINE.NET, This page includes a comprehensive list of all known dived wrecks all over the coast of Ireland. This page also includes a few wrecks with images highlighted.
-                    We do hope this webpage is to your liking and for any questions or any potential images/new wrecks additions to the website please let us know at irishwrecksnetofficial@gmail.com
+                   {% trans "Welcome to our List of Wrecks page here at WWW.IRISHWRECKSONLINE.NET, This page includes a comprehensive list of all known dived wrecks all over the coast of Ireland. This page also includes a few wrecks with images highlighted. We do hope this webpage is to your liking and for any questions or any potential images/new wrecks additions to the website please let us know at irishwrecksnetofficial@gmail.com" %}
                 <br><br>
                 </p>
                 <p class="text">
                     <div class="wreck1" ><img src="{% static 'bg_wreck.jpg' %}" alt="wreck"></div>
-                    <figcaption>Co.Dublin Vanguard H.M.S</figcaption>
-                The Vanguard H.M.S (Her Majesty's Ship) wreck was found off the coast of Dublin and has been a famous diving location for well-seasoned divers for decades. This wreck is located only 20km off Dublin's coast.<br>
-                What's fascinating about this wreck is the fact that it has maintained its overall ship structure despite years of natural forces in the ocean floor - We have added this wreck as our first highlighted wreck due to this reason.
-                <br><br>
+                    <figcaption> {% trans "Co.Dublin Vanguard H.M.S" %}</figcaption>
+               {% trans  "The Vanguard H.M.S (Her Majesty's Ship) wreck was found off the coast of Dublin and has been a famous diving location for well-seasoned divers for decades. This wreck is located only 20km off Dublin's coast." %}<br> {% trans "What's fascinating about this wreck is the fact that it has maintained its overall ship structure despite years of natural forces in the ocean floor - We have added this wreck as our first highlighted wreck due to this reason." %}                <br><br>
                 </p>
 
                <p>
                        <div class="wreck1" ><img src="{% static 'wood.jpg' %}" alt="wreck"></div>
-                        <figcaption>Co.Cork Bohemian S.S</figcaption>
-               The Bohemian S.S has been washed ashore on the beaches of Co.Cork for many decades. The area has since been secured to prevent this wooden wreck from being dragged back into the ocean via tidal changes.
+                        <figcaption> {% trans "Co.Cork Bohemian S.S" %}</figcaption>
+                {% trans "The Bohemian S.S has been washed ashore on the beaches of Co.Cork for many decades. The area has since been secured to prevent this wooden wreck from being dragged back into the ocean via tidal changes." %}
                 <br><br>
 
                </p>
                    <p>
                        <div class="wreck1" ><img src="{% static 'tank.jpg' %}" alt="wreck"></div>
-                        <figcaption>Co.Donegal Gaelic S.V</figcaption>
-                The Gaelic S.V was a ship that sunk during WW2 which carried Allied armor to be used in preparation for D-Day on French shores. As seen in the image above - The tanks still lie at the bottom of the Ocean off the shore of Co.Donegal.
+                        <figcaption>{% trans "Co.Donegal Gaelic S.V" %}</figcaption>
+             {% trans "The Gaelic S.V was a ship that sunk during WW2 which carried Allied armor to be used in preparation for D-Day on French shores. As seen in the image above - The tanks still lie at the bottom of the Ocean off the shore of Co.Donegal." %}
                 <br><br>
-                Like the Vanguard H.M.S - This wreck is extremely popular with both experienced and new divers. This wreck is a must-see for any experienced diver and should definitely be visited if possible.
+            {% trans "Like the Vanguard H.M.S - This wreck is extremely popular with both experienced and new divers. This wreck is a must-see for any experienced diver and should definitely be visited if possible." %}
                 <br><br>
 
                </p>
 
                 <p>
                     <div class="wreck2" ><img src="{% static 'wreck2.PNG' %}" alt="wreck"></div>
-                    <figcaption>Co.Antrim Brisk H.M.S</figcaption>
-                The Brisk H.M.S is the ship in the very middle of the three ships shown in the image above. The ship is very dangerous to enter and structural ship engineers predict that natural forces will break down this ship into scraps within this decade. Due to this fact - access to this ship is forbidden.
+                    <figcaption> {% trans "Co.Antrim Brisk H.M.S" %}</figcaption>
+                {% trans "The Brisk H.M.S is the ship in the very middle of the three ships shown in the image above. The ship is very dangerous to enter and structural ship engineers predict that natural forces will break down this ship into scraps within this decade. Due to this fact - access to this ship is forbidden." %}
                 <br><br>
-                <figcaption> LIST OF ALL WRECKS BY COUNTY </figcaption>
+                <figcaption>{% trans "LIST OF ALL WRECKS BY COUNTY" %} </figcaption>
                 </p>
                 <div>
             <!-- Table Code -->
@@ -225,8 +222,8 @@
     </body>
 
         <footer class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">IRISH WRECKS</a>
-            <div id="footertext">WEBSITE BY SEAN LAWLESS AND GABRIEL PLAZA </div>
+        <a class="navbar-brand" href="#"> {% trans "IRISH WRECKS" %}</a>
+            <div id="footertext">{% trans "WEBSITE BY SEAN LAWLESS AND GABRIEL PLAZA" %} </div>
         </footer>
 </html>
 </div>

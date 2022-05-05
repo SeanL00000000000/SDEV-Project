@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-04 15:41+0100\n"
-"PO-Revision-Date: 2022-05-02 14:58+0100\n"
+"POT-Creation-Date: 2022-05-05 00:21+0100\n"
+"PO-Revision-Date: 2022-05-05 00:23+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: vi\n"
@@ -18,11 +18,67 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.0.1\n"
 
-#: .\sdev_proj\templates\index.html:25 .\sdev_proj\templates\wrecks.html:25
+#: .\sdev_proj\templates\index.html:25 .\sdev_proj\templates\index.html:88
+#: .\sdev_proj\templates\wrecks.html:25
 #, fuzzy
 #| msgid "IRISH WRECKS ONLINE"
 msgid "IRISH WRECKS"
 msgstr "XÁC TÀU IRELAND TRỰC TUYẾN"
+
+#: .\sdev_proj\templates\index.html:29
+msgid "HomePage"
+msgstr "Trang chủ"
+
+#: .\sdev_proj\templates\index.html:30
+msgid "Wrecks"
+msgstr "Wrecks"
+
+#: .\sdev_proj\templates\index.html:54
+msgid "WELCOME TO IRISH WRECKS ONLINE"
+msgstr "XÁC TÀU IRELAND TRỰC TUYẾN"
+
+#: .\sdev_proj\templates\index.html:58
+msgid ""
+"Welcome to Irish Wrecks Online, This is a website to showcase the the "
+"possibilities of exploring irish wrecks around our coastline, We have many "
+"wrecks around in our seas just waiting for intrepid explorers to investigate "
+"and disover. If this is your first time discovering irish wrecks then "
+"welcome we hope it ignites a passion like it has for us. If you take a look "
+"to your right we have included a interactive map of most of the available to "
+"explore wrecks around our coastline. This can be useful to locate and plan "
+"your next diving adventure."
+msgstr ""
+
+#: .\sdev_proj\templates\index.html:62
+msgid ""
+"Diving is not an exclusive past time, You can be from any background and "
+"still have it in you to explore the seas. Many  divers are quite "
+"individualistic and prefer the solitary of being alone with your thoughts in "
+"the waters. This would usually be reccomended for experienced divers but "
+"there is a tranquility only found in diving alone."
+msgstr ""
+
+#: .\sdev_proj\templates\index.html:66
+msgid ""
+"Diving Can also be done in a group with friends and family and arguably for "
+"some is more enjoyable. You have the added safety of being surrounded by "
+"other divers. You also have the unique experience of sharing memories of "
+"sights you will never forget with people important to you. Diving can be a "
+"great bonding experience for you and your friends. The stories to come out "
+"of diving could be shared amongst yourselves for years to come."
+msgstr ""
+
+#: .\sdev_proj\templates\index.html:70
+msgid ""
+"We have been striving to get more female divers in the scene as diving "
+"especially in Ireland we do not want it to be a gendered experience. We want "
+"to have an inclusive diving scene around Ireland and its wrecks. The more "
+"people the merrier we believe"
+msgstr ""
+
+#: .\sdev_proj\templates\index.html:90
+msgid "WEBSITE BY SEAN LAWLESS AND GABRIEL PLAZA"
+msgstr "TRANG WEB CỦA SEAN LAWLESS VÀ GABRIEL PLAZA"
 
 #: .\sdev_proj\views.py:24
 msgid "hello"
